@@ -13,6 +13,7 @@ import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import AdminBookings from './pages/AdminBookings';
 import AdminServices from './pages/AdminServices';
+import FastRepair from './pages/FastRepair';
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -74,6 +75,14 @@ function App() {
             <>
               <Navbar />
               <Contact />
+              <Footer />
+            </>
+          } />
+          
+          <Route path="/fast-repair" element={
+            <>
+              <Navbar />
+              <FastRepair />
               <Footer />
             </>
           } />
