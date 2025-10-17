@@ -1,6 +1,13 @@
-# Phone Service Pro - React Frontend
+# 📱 Phone Service Pro - React Frontend
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue)](https://tarun2231.github.io/Iphone_service-Oct17/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.0-blue)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7.1.10-purple)](https://vitejs.dev/)
 
 A comprehensive React.js frontend website for a Phone Service Company with admin dashboard functionality.
+
+🌐 **Live Demo**: [https://tarun2231.github.io/Iphone_service-Oct17/](https://tarun2231.github.io/Iphone_service-Oct17/)
 
 ## 🚀 Features
 
@@ -104,6 +111,22 @@ npm run dev
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
+
+## 🌐 GitHub Pages Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. 
+
+### Deployment Process:
+1. **Automatic**: Every push to the `main` branch triggers deployment
+2. **Workflow**: Uses GitHub Actions to build and deploy the React app
+3. **URL**: https://tarun2231.github.io/Iphone_service-Oct17/
+
+### Manual Deployment:
+If you need to deploy manually, you can run:
+```bash
+npm run build
+# The built files will be in the 'dist' directory
+```
 
 ## 📄 Pages Overview
 
