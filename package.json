@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Professional phone repair service website with admin dashboard",
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
